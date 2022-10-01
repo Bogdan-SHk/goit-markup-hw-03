@@ -1,0 +1,204 @@
+:root {
+    --primary-text-color: #757575;
+    --secondary-text-color: #212121;
+    --primary-white-color: #FFFFFF;
+    --primary-black-color: #000000;
+    --accent-color: #2196F3;
+    --secondary-background-color: #2F303A;
+    --button-background-color: #F5F4FA;
+}
+body {
+    color: var(--primary-text-color);
+    background-color: var(--primary-white-color);
+    
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.03em;
+}
+
+/* Header */
+.logo {
+    color: var(--primary-black-color);
+    
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+}
+.logo-decor {
+    color: var(--accent-color);
+}
+.list {
+    list-style: none;
+}
+.nav-list .link {
+    color: var(--secondary-text-color);
+    
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+.nav-list .link:hover,
+.nav-list .link:focus {
+    color: var(--accent-color);
+}
+.mail,
+.tel {
+    color: var(--primary-text-color);
+    
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+.mail:hover,
+.tel:hover,
+.mail:focus,
+.tel:focus {
+    color: var(--accent-color);
+}
+
+/* Banner */
+.banner {
+    background-color: var(--secondary-background-color);
+}
+.banner-title {
+    color: var(--primary-white-color);
+    
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+.banner-button {
+    color: var(--secondary-text-color);
+    background-color: var(--button-background-color);
+    cursor: pointer;
+
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+}
+.banner-button:hover,
+.banner-button:focus {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+}
+
+/* Features */
+.features-title {
+    color: var(--secondary-text-color);
+
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+.features-text {
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+/* Functions */
+.functions-title {
+    color: var(--secondary-text-color);
+
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+
+/* Team */
+.team {
+    background-color: var(--button-background-color);
+}
+.team-title {
+    color: var(--secondary-text-color);
+    
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+.team-member {
+    color: var(--secondary-text-color);
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+}
+.team-text {
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+}
+
+/* Footer */
+.logo-footer {
+    color: var(--primary-white-color);
+    
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+}
+.bottom {
+    background-color: var(--secondary-background-color);
+}
+.contacts {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+.contacts .link {
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+.link.address {
+    color: var(--primary-white-color);
+}
+.contacts .link:hover,
+.contacts .link:focus {
+    color: var(--accent-color);
+}
+
+/* PORTFOLIO */
+.button {
+    color: var(--secondary-text-color);
+    background-color: var(--button-background-color);
+    cursor: pointer;
+    
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+}
+.button:hover,
+.button:focus {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+}
+.work-link {
+    text-decoration: none;
+}
+.work-title {
+    color: var(--secondary-text-color);
+    
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+.work-text {
+    color: var(--primary-text-color);
+    
+    font-size: 16px;
+    line-height: 1.88;
+}
