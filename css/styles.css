@@ -277,7 +277,19 @@ p {
 }
 
 /* PORTFOLIO */
+.filter-list {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 34px;
+}
+.filter-list .item:not(:last-child) {
+    margin-right: 8px;
+}
 .button {
+    display: inline-block;
+    border-radius: 4px;
+    padding: 6px 22px;
+
     color: var(--secondary-text-color);
     background-color: var(--button-background-color);
     cursor: pointer;
@@ -287,15 +299,40 @@ p {
     font-size: 16px;
     line-height: 1.63;
 }
+.button.first {
+    padding: 6px 25px;
+}
 .button:hover,
 .button:focus {
     color: var(--primary-white-color);
     background-color: var(--accent-color);
 }
+.work-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -30px;
+    
+}
+.work-list .item {
+    flex-basis: calc((100% - 180px) / 9);
+    margin-right: 30px;
+}
+.work-list .item:not(:nth-last-child(-n + 3)) {
+    margin-bottom: 30px;
+}
+.work-container {
+    padding: 20px 24px;
+    border: 1px solid #EEEEEE;
+}
 .work-link {
     text-decoration: none;
 }
+.work-img {
+    display: block;
+}
 .work-title {
+    margin-bottom: 4px;
+
     color: var(--secondary-text-color);
     
     font-size: 18px;
