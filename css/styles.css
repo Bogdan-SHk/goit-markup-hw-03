@@ -146,7 +146,6 @@ p {
 }
 .banner-button {
     display: inline-block;
-    border-radius: 4px;
     padding: 10px 32px;
     min-width: 216px;
     border-radius: 4px;
@@ -270,7 +269,7 @@ p {
 }
 .contacts {
     font-style: normal;
-    line-height: 24px;
+    line-height: 1.71;
 }
 .contacts .item:not(:last-child) {
     margin-bottom: 9px;
@@ -298,7 +297,6 @@ p {
 }
 .button {
     display: inline-block;
-    border-radius: 4px;
     padding: 6px 22px;
     border-radius: 4px;
     border: none;
